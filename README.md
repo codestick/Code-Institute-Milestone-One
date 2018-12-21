@@ -2,7 +2,7 @@
 
 # The Monkees Website
 
-The Monkees are one of the most Iconic bands of the 1960's. Still performing today, over 50 years later The have more than 10 top 100 Billboard hits. This website showcases the band through selected videos and also the band to be contacted for bookings.
+The Monkees are one of the most Iconic bands of the 1960's. Still performing today, over 50 years later They have more than 10 top 100 Billboard hits. This website showcases the band through selected videos and also the band to be contacted for bookings.
 Essentially, this part is your sales pitch.
  
 ## UX
