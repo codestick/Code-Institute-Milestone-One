@@ -128,7 +128,6 @@ cite, blockquote {
 	background-color: red;
 	height: 50%;
 	width: 50%;
-	opacity: 0.2;
 	border-radius: 5px;
 	
 }
@@ -173,8 +172,13 @@ video {
 	margin-top: 15px;
 }
 .video-media-background {
-	color: #fff;
+	background-color: red;
+	color: #fafafa;
+	font-weight: 600;
 	margin-top: 20px;
+	opacity: 0.5;
+	text-overflow: inherit;
+	padding: 10px;
 }	
 
 #media-heading {
@@ -187,7 +191,7 @@ video {
 
 .margin-booking-gigs {
 	margin-top: 10px;
-	maring-right: 10px;
+	margin-right: 10px;
 }
 .form-field {
 	margin-left: 15px;
@@ -248,8 +252,6 @@ form {
 	padding: 5px;
 }
 
-.booking-header-background {
-}
 
 
 .btn-danger {
