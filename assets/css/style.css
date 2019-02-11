@@ -3,441 +3,351 @@
 /* Imported Fonts */
 
 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 /* Background Images */
 body.home-background {
-	background-image:  url('../images/hp-background.png');
-	background-size: cover;
-	}
+    background-image:  url('../images/hp-background.png');
+    background-size: cover;
+}
 
 body.gigs-background {
-		background-image: url(../images/gigs-background.png);
-	background-size: cover;
-	
+    background-image: url(../images/gigs-background.png);
+    background-size: cover;
+
 }
 
 body.media-background {
-	background-image: url("../images/monkees media background.png");
-	background-size: cover;
-	
+    background-image: url("../images/monkees media background.png");
+    background-size: cover;
+
 }
 
 .booking-header {
-	text-align: center;
-	font-family: 'Roboto';
-	text-transform: capitalize;
+    text-align: center;
+    font-family: 'Roboto', 'san-serif';
+    text-transform: capitalize;
 }
 
 
 
 body.contact-background {
-	background-image: url(../images/background-contact.png);
-	background-size: cover;
+    background-image: url(../images/background-contact.png);
+    background-size: cover;
 }
 
+/*Navigation*/
 
-
-body footer {
-	
-		background-color: red;
-
+ .logo {
+	height: 100px;
+	width: 100px;
 }
 
+.nav-link  {
 
-/*-- Nav Menu ---*/
-.nav-menu {
-    list-style: none;
-    text-transform: uppercase;
-	padding-bottom: 5px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-	margin-top: 0px;
-	margin-right: 5px;
-}
-
-.nav-menu-item a {
-	float: left;
-	margin-right: -25px;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 30px;
-	padding-bottom: 20px;
-    color: #fafafa;
-    width: 100px;
-	font-weight: 700;
-}
-
-.form-text-colour {
-	color: #fafafa;
 	text-transform: uppercase;
-	font-weight: 400;
+	color: gray !important;
+	
 }
+
+.nav-link:hover {
+	color: white !important;
+}
+
+nav.navbar  {
+	background-color: black !important;
+}
+
+
+
+
+.video-margin-top {
+	margin-top: 100px;
+}
+
+
 
 cite, blockquote {
-	color: #fafafa;
+    color: #fafafa;
 }
 
 /*--Splash Text--*/
 .splash-text {
     margin-top: 50px;
-	margin-right: 20px;
+    margin-right: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 100;
 }
 
-
-
-.logo {
-    margin-top: -100px;
-    height: 400px;
-    width: 400px;
-    align-content:center;
-}
-
 /*---Newsletter--*/
 .email-newsletter {
 
-	position: relative;
-	margin-top: 50px;
-	bottom: 0;
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
     background-color: rgba(255,0,0,0.2);
     padding: 10px;
     border-radius: 5px;
-	color: #fafafa;
-	margin-bottom: 100px;
+    color: #fafafa;
+    margin-bottom: 100px;
 
 }
 
 .hp-video-heading {
-	color: #fafafa;
-	font-weight: 100;
-	margin-top: 10px;
-	font-size: 1.2rem;
+    color: #fafafa;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
-
-
-.hp-news {
-	font-family: Roboto, 'san-serif';
-	color: #fafafa;
-	font-weight: 100;
-	background-color: red;
-	height: 50%;
-	width: 50%;
-	border-radius: 5px;
-	
-}
-	
-
-
-
 .monkees-hp-splash {
-	color: #fafafa;
-	font-weight: 100;
+    color: #fafafa;
+    font-weight: 100;
     font-family: Roboto, 'san-serif';
-	font-size: 30px;
+    font-size: 30px;
 
-	
+
 }
 
 
 .gigDetails-date {
-	height: 75px;
+    height: 75px;
 }
 
 .gigDetails-location {
-	height: 75px;
+    height: 75px;
 }
 
 .gigDetails-booking {
-	height: 75px;
+    height: 75px;
 }
 
 .gigDetails {
-	text-transform: capitalize;
-	padding: 20px;
-	font-family: 'Roboto', 'Sans-serif';
-	color: white;
-	font-size: 20px;
-	
+    text-transform: capitalize;
+    padding: 20px;
+    font-family: 'Roboto', 'Sans-serif';
+    color: white;
+    font-size: 20px;
+
 }
 
 /*--Media Page--*/
 
 video {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 .video-media-background {
-	background-color: red;
-	color: #fafafa;
-	font-weight: 600;
-	margin-top: 20px;
-	opacity: 0.5;
-	text-overflow: inherit;
-	padding: 10px;
-}	
+    background-color: red;
+    color: #fafafa;
+    font-weight: 600;
+    margin-top: 20px;
+    opacity: 0.5;
+    text-overflow: inherit;
+    padding: 10px;
+}
 
 #media-heading {
-	color: #fff;
-	font-family: Roboto, 'sans-serif';
+    color: #fff;
+    font-family: Roboto, 'sans-serif';
 
 }
 
 /*--Gigs Page--*/
 
 .margin-booking-gigs {
-	margin-top: 10px;
-	margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 .form-field {
-	margin-left: 15px;
-	border-radius: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
 }
 
 
 .form-label {
-	
-	color: #fafafa;
-	font-family: 'Roboto', 'sans-serif';
-	font-weight: 400;
-	font-size: 1.2rem;
+
+    color: #fafafa;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.2rem;
 }
 
 .contact-booking {
-	
 
-	font-family: 'Roboto', 'san-serif';
-	font-weight: 100;
-	font-size: 1.5rem;
-	color: #fafafa;
-	text-transform: uppercase;
-	margin-left: 10px;
-	margin-bottom: 30px;
+
+    font-family: 'Roboto', 'san-serif';
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
 
 
 .contact-button-background {
-	
-	background-color: #fafafa;
-	color: #000000;
-	text-transform: uppercase;
-	
+
+    background-color: #fafafa;
+    color: #000000;
+    text-transform: uppercase;
+
 }
 
 .contact-address {
-	color: #fafafa;
-	list-style: none;
-	text-transform: uppercase;
-	text-align: left;
-	
-	
+    color: #fafafa;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: left;
+
+
 }
 
 
 form {
-	margin: 10px;
+    margin: 10px;
 }
 
 
 .booking-header {
-	font-size: 1.5rem;
-	text-transform: uppercase;
-	margin-left: 20px;
-	color: #fafafa;
-	font-family: 'Roboto', 'Sans-serif';
-	padding: 5px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #fafafa;
+    font-family: 'Roboto', 'Sans-serif';
+    padding: 5px;
 }
-
-
-
-.btn-danger {
-	text-transform: capitalize;
-	border-radius: 2px;
-	opacity: 0.9;
-
-}
-
-
-.gigDetails {
-	text-transform: capitalize;
-	text-align: center;
-}
-
 /* Media Queries */
 
 
 
 
 @media(max-width:414px) {
-	.logo {
-		margin-top: 5px;
-		height: 250px;
-		width: 250px;
-	}
-	body.home-background {
-		background-image: url('../images/monkeeys-bg-sm.png');
-		background-size: 100%;
-	}
-	
-	body.media-background  {
-		background-image: url('../images/monkeeys-bg-sm.png');
-		background-size: 100%;
-	}
-	
-	body.gigs-background {
-		background-image: url('../images/Monkees-Gig Background-sm.png');
-		background-size: cover;
-	}
-	
-	.splash-text {
-		font-weight: 400;
-	}
-	
-	.nav-menu  {
-		width: 100%;
-	}
-	
-	
-	
-	.hp-video-heading {
-		margin-top: 10px;
-		font-size: 1rem;
-	}
-	
-	.form-group {
-		margin-left: 30px; 
-	}
-	
-	
+
+    body.home-background {
+        background-image: url('../images/monkeeys-bg-sm.png');
+        background-size: 100%;
+    }
+
+    body.media-background  {
+        background-image: url('../images/monkeeys-bg-sm.png');
+        background-size: 100%;
+    }
+
+    body.gigs-background {
+        background-image: url('../images/Monkees-Gig Background-sm.png');
+        background-size: cover;
+    }
+
+    .splash-text {
+        font-weight: 400;
+    }
+
+    .hp-video-heading {
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    .form-group {
+        margin-left: 30px;
+    }
+
+
 }
 
 @media screen and (max-width : 375px ){
-	
-	.nav-menu-item  {
-		margin-left: -35px;
-		margin-right: -200px;
 
-	}
-	
-	.nav-menu {
-		
-		margin-left: -30px;
-	}
-	
-	.form-control, .form-group {
-		margin-left: 10px;
-		padding: 10px;
-	}
-	.btn-dark {
-		margin-top: 5px;
-		margin-left: 10px;
-	}
-	
-	.booking-header {
-		font-size: 1rem;
-	}
-	
 
-}
+    .form-control, .form-group {
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .btn-dark {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
 
-.nav-menu {
-	margin-left: 20px;
+    .booking-header {
+        font-size: 1rem;
+    }
+
+
 }
 
 @media(max-width:414px) {
-	
-	.container-fluid {
-		margin-left: -20px;
-	}
-	
-	h2.contact-booking {
-		margin-left: 40px;
-		margin-top: 20px;
-		
-	}
-	.hp-video-heading {
-		padding-top: 20px;
-		margin-left:30px;
-}
-	button {
-		margin-left: 30px;
-	}
-	.monkees-hp-splash {
-		margin-top: 15px;
-		font-size: 1.4rem;
-		text-align: center;
-		
-	}
-	
-	#media-heading {
-		margin-top: 30px;
-		margin-left: 50px;
-	}
-	
-	
-	.logo {
-		margin-top: 5px;
-		height: 250px;
-		width: 250px;
-		opacity: 0.5;
-		margin-left: 50px;
-	}
-	
-	.gigDetails {
-		font-size: 0.75rem;
-	}
-	
-	.contact-booking {
-		font-size: 1.2rem;
-	}
-	
-	video {
-		margin-left: 50px;
-	}
-	
-	.video-description {
-		margin-right: 30px;
-		margin-left: 30px;
-	}
+
+    .container-fluid {
+        margin-left: -20px;
+    }
+
+    h2.contact-booking {
+        margin-left: 40px;
+        margin-top: 20px;
+
+    }
+    .hp-video-heading {
+        padding-top: 20px;
+        margin-left:30px;
+    }
+    button {
+        margin-left: 30px;
+    }
+    .monkees-hp-splash {
+        margin-top: 15px;
+        font-size: 1.4rem;
+        text-align: center;
+
+    }
+
+    #media-heading {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .gigDetails {
+        font-size: 0.75rem;
+    }
+
+    .contact-booking {
+        font-size: 1.2rem;
+    }
+
+    video {
+        margin-left: 50px;
+    }
+
+    .video-description {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
 }
 
 
 .splash-text, cite, .monkees-hp-splash {
-	margin-left: 30px;
+    margin-left: 30px;
 }
-@media (min-width:1024) {
-	
-	.video-background {
-		margin-right: 200px;
-	}
-	
+@media (min-width:1024px) {
+
+    .video-background {
+        margin-right: 200px;
+    }
+
 
 }
 
 
 @media(min-width:1280px) {
-	
-	.nav-menu {
-		
-	margin-left: 200px;
-	}
-	
-	.form-position {
-		margin-left: 30px;
-	}
-	
-	.btn {
-		margin-top: 19px;
-	}
-	
 
-		
-	}
-	
+    .form-position {
+        margin-left: 30px;
+    }
 
+    .btn {
+        margin-top: 19px;
+    }
+
+
+
+}
 
 
