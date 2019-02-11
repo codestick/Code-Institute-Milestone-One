@@ -59,8 +59,11 @@ nav.navbar  {
 	background-color: black !important;
 }
 
-
-
+/* Carousel Image Size */
+	
+		.carousel-item, .carousel-inner {
+			height: 568px;
+		}
 
 .video-margin-top {
 	margin-top: 100px;
